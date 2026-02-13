@@ -1,0 +1,35 @@
+.bible-selector {
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.03);
+}
+
+.selector-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+
+.selector-form select,
+.selector-form input {
+  min-width: 120px;
+  flex: 1 1 150px;
+}
+
+.selector-form span {
+  color: #7f8c8d;
+}
+
+.error {
+  color: #e74c3c;
+  background: #fadbd8;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+
+.generated-question {
+  margin-top: 2rem;
+}
